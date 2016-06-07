@@ -1,0 +1,8 @@
+$my-favorite-color: silver;
+
+.foo {
+	background: darken($my-favorite-color, 20%);
+	&:first-child {
+		background: darken($my-favorite-color, 30%);
+	}
+}

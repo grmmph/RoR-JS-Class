@@ -1,0 +1,94 @@
+.picker .row .col {
+  display: table-cell;
+  width: 100px;
+  height: 100px; }
+.picker .row.red .col {
+  background: red; }
+  .picker .row.red .col:nth-child(1) {
+    background: #f00000; }
+  .picker .row.red .col:nth-child(2) {
+    background: #e00000; }
+  .picker .row.red .col:nth-child(3) {
+    background: #d10000; }
+  .picker .row.red .col:nth-child(4) {
+    background: #c20000; }
+  .picker .row.red .col:nth-child(5) {
+    background: #b30000; }
+  .picker .row.red .col:nth-child(6) {
+    background: #a30000; }
+  .picker .row.red .col:nth-child(7) {
+    background: #940000; }
+  .picker .row.red .col:nth-child(8) {
+    background: #850000; }
+  .picker .row.red .col:nth-child(9) {
+    background: #750000; }
+  .picker .row.red .col:nth-child(10) {
+    background: #660000; }
+.picker .row.green .col {
+  background: green; }
+  .picker .row.green .col:nth-child(1) {
+    background: #007100; }
+  .picker .row.green .col:nth-child(2) {
+    background: #006100; }
+  .picker .row.green .col:nth-child(3) {
+    background: #005200; }
+  .picker .row.green .col:nth-child(4) {
+    background: #004300; }
+  .picker .row.green .col:nth-child(5) {
+    background: #003400; }
+  .picker .row.green .col:nth-child(6) {
+    background: #002400; }
+  .picker .row.green .col:nth-child(7) {
+    background: #001500; }
+  .picker .row.green .col:nth-child(8) {
+    background: #000600; }
+  .picker .row.green .col:nth-child(9) {
+    background: black; }
+  .picker .row.green .col:nth-child(10) {
+    background: black; }
+.picker .row.yellow .col {
+  background: yellow; }
+  .picker .row.yellow .col:nth-child(1) {
+    background: #f0f000; }
+  .picker .row.yellow .col:nth-child(2) {
+    background: #e0e000; }
+  .picker .row.yellow .col:nth-child(3) {
+    background: #d1d100; }
+  .picker .row.yellow .col:nth-child(4) {
+    background: #c2c200; }
+  .picker .row.yellow .col:nth-child(5) {
+    background: #b3b300; }
+  .picker .row.yellow .col:nth-child(6) {
+    background: #a3a300; }
+  .picker .row.yellow .col:nth-child(7) {
+    background: #949400; }
+  .picker .row.yellow .col:nth-child(8) {
+    background: #858500; }
+  .picker .row.yellow .col:nth-child(9) {
+    background: #757500; }
+  .picker .row.yellow .col:nth-child(10) {
+    background: #666600; }
+.picker .row.blue .col {
+  background: blue; }
+  .picker .row.blue .col:nth-child(1) {
+    background: #0000f0; }
+  .picker .row.blue .col:nth-child(2) {
+    background: #0000e0; }
+  .picker .row.blue .col:nth-child(3) {
+    background: #0000d1; }
+  .picker .row.blue .col:nth-child(4) {
+    background: #0000c2; }
+  .picker .row.blue .col:nth-child(5) {
+    background: #0000b3; }
+  .picker .row.blue .col:nth-child(6) {
+    background: #0000a3; }
+  .picker .row.blue .col:nth-child(7) {
+    background: #000094; }
+  .picker .row.blue .col:nth-child(8) {
+    background: #000085; }
+  .picker .row.blue .col:nth-child(9) {
+    background: #000075; }
+  .picker .row.blue .col:nth-child(10) {
+    background: #000066; }
+
+/*# sourceMappingURL=style.css.map */

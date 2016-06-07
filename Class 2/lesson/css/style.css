@@ -1,0 +1,6 @@
+.foo {
+  background: #990000; }
+  .foo:first-child {
+    background: #660000; }
+
+/*# sourceMappingURL=style.css.map */
