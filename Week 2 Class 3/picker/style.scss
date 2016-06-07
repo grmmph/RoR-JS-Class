@@ -1,0 +1,40 @@
+$red: red;
+$green: green;
+$yellow: yellow;
+$blue: blue;
+
+$size: 100px;
+
+@mixin darkenize ($color) {
+	.col {
+		background: $color;
+		@for $i from 1 through 10 {
+			&:nth-child(#{$i}) {
+				background: darken($color, $i * 3%);
+			}
+		}
+	}
+}
+
+.picker {
+	.row {
+		.col {
+			display: table-cell;;
+			width: $size;
+			height: $size;
+		}
+
+		&.red {
+			@include darkenize($red);
+		}
+		&.green {
+			@include darkenize($green);
+		}
+		&.yellow {
+			@include darkenize($yellow);
+		}
+		&.blue {
+			@include darkenize($blue);
+		}
+	}
+}
